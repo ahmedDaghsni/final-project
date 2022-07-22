@@ -1,0 +1,107 @@
+*
+{
+    margin: 0 ;
+    padding: 0  ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.liyji
+{
+    margin-top: 80px;
+    margin-left: 210px;
+}
+.card
+{
+    display: inline-block;
+    margin: 20px;
+    border: 2px solid black;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #42445A;
+    color:#ffff;
+    box-shadow: 0px 0px 40px #000;
+}
+.card .image img
+{
+    width: 100%; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 50%;
+}
+.title
+{padding: 3%;
+
+}
+button
+{border-radius: 10PX;
+    padding: 3%;
+    margin-top: 10PX;
+    margin-bottom: 10PX;
+    background-color: white;
+    
+    background-color: black;
+    color: white;
+}
+button:hover
+{
+    background-color: #ffff;
+    color: rgb(19, 19, 19);
+} 
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: rgba(100, 100, 100, 0.1) 1px solid ;
+}
+
+.footer nav img{width: 180px;
+height: 180px;
+margin-left: 50px;
+margin-top: 60px;
+}
+.footer nav  h1{
+    margin-left: 250px;
+   margin-top: 2px;
+    font-style: italic;
+}
+.footer nav{
+    display: flex;
+    align-items: center;
+}
+.footer nav h1{
+   margin-left: 0;
+   margin-top: 100px;
+   font-size: 50px;
+   color: black;
+}
+
+.shoplink {
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    /* margin-left: 1800px; */
+    
+   
+   
+}
+.shoplink  > ul
+{
+    width: 100%;
+    margin-bottom: 50px;
+list-style: none;
+display: flex;
+gap: 40px;
+justify-content: flex-end;
+padding:0 200px;
+}
+.shoplink > ul > li > a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #42445A;
+}
+
+
+
